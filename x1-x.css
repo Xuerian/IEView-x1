@@ -1,0 +1,104 @@
+* {
+	-ms-scrollbar-3dlight-color: #222222; 
+	-ms-scrollbar-arrow-color: #555; 
+	-ms-scrollbar-base-color: #1a1a1a; 
+	-ms-scrollbar-darkshadow-color: #000; 
+	-ms-scrollbar-face-color: #1a1a1a; 
+	-ms-scrollbar-highlight-color: #333; 
+	-ms-scrollbar-shadow-color: #000;
+}
+
+body {
+	margin: 0;
+	font-family: Calibri;
+	font-size: .9em;
+	background-color: #1f1f1f;
+	color: #ccc;
+}
+
+hr {
+	border: 0;
+}
+
+body > div {
+	clear: both;
+	margin-right: 8px;
+	max-width: 94%;
+	word-wrap: break-word;
+}
+
+.float-right {
+	float: right;
+}
+
+.old {
+	color: #676767;
+}
+
+.new {
+	color: #ccc;
+}
+
+.in, .out {
+	background-color: #1a1a1a;
+	border: 2px solid #050505;
+	padding: 5px;
+	margin: 8px;
+	width: 94%;
+	box-shadow: 2px 2px 5px #141414;
+	border-radius: 2px;
+}
+
+.in {
+	margin-left: 5%;
+	background-color: #222;
+}
+
+.head {
+	float: right;
+}
+
+.spacer {
+	margin-left: 4px;
+	margin-right: 4px;
+	color: #444;
+}
+
+.date {
+	font-style: italic;
+	font-size: .8em;
+}
+
+.time, .date-time {
+	font-family: lcdD;
+	font-size: 12px;
+}
+
+.time {
+	float: right;
+}
+
+.name {
+	font-weight: bold;
+}
+
+.message {
+	clear: both;
+}
+
+.status {
+	font-family: drifter;
+	margin-left: 10%;
+	font-size: 6px;
+	color: #333;
+}
+
+a:link {
+	text-decoration: none;
+	color: #aad;
+}
+
+a:hover {
+	color: #222;
+	background-color: #aac;
+}

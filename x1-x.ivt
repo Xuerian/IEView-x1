@@ -1,0 +1,144 @@
+<!--HTMLStart-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<base href="%base%" />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<link rel="stylesheet" href="x1-x.css" type="text/css" />
+</head>
+
+<body>
+
+<!--hMessageInGroupStart-->
+	<div class="in old">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+
+
+<!--hMessageInGroupInner-->
+		<div class="message secondary">
+			<span class='time'>%time%</span>
+			%text%
+		</div>
+
+<!--hMessageInGroupEnd-->
+	</div>
+
+<!--hMessageOutGroupStart-->
+	<div class="out old">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+
+
+<!--hMessageOutGroupInner-->
+		<div class="message secondary">
+			<span class='time'>%time%</span>
+			%text%
+		</div>
+
+<!--hMessageOutGroupEnd-->
+	</div>
+
+<!--MessageInGroupStart-->
+	<div class="in">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+
+
+<!--MessageInGroupInner-->
+		<div class="message new">
+			<span class='time'>%time%</span>
+			%text%
+		</div>
+
+<!--MessageInGroupEnd-->
+	</div>
+
+<!--MessageOutGroupStart-->
+	<div class="out">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+
+
+<!--MessageOutGroupInner-->
+		<div class="message new">
+			<span class='time'>%time%</span>
+			%text%
+		</div>
+
+<!--MessageOutGroupEnd-->
+	</div>
+
+<!--File-->
+	<div class="in">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+	</div>
+
+<!--hFile-->
+	<div class="in old">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+	</div>
+
+<!--URL-->
+	<div class="in">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+	</div>
+
+<!--hURL-->
+	<div class="in old">
+		<div class="head">
+			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+		</div>
+		<div class="msg_body">
+			%text%
+		</div>
+	</div>
+
+<!--Status-->
+	<div class="status">
+		<span class="time">%date% %time%</span>
+		<div>
+			<span class="name">%name%</span> %text%
+		</div>
+	</div>
+
+<!--hStatus-->
+	<div class="status old">
+		<span class="time">%date% %time%</span>
+		<div>
+			<span class="name">%name%</span> %text%
+		</div>
+	</div>
