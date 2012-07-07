@@ -2,7 +2,7 @@
 
 IEView-X1 is a theme based on the BlackShadow IEView theme and colored to match existing "X1" plugin skins.
 
-![Theme preview with X1 for TabSRMM](http://github.com/user/Xuerian/IEView-x1/theme_preview.png)
+![Theme preview with X1 for TabSRMM](https://github.com/Xuerian/IEView-x1/raw/master/theme_preview.png)
 
 To install, unpack the IEView-x1 folder so that x1-x.ivt resides in your Miranda folder:
 
