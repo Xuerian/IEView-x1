@@ -10,8 +10,9 @@ To install, unpack the IEView-x1 folder so that x1-x.ivt resides in your Miranda
 
 Uses LcdD and Calibri fonts. LcdD is available freely on the internet, and Calibri is included with most recent versions of Microsoft Windows.
 
-Similar X1 skins are available for other plugins
+Similar/X1 skins are available for other plugins
 
 * TipperYM: http://kdrt.deviantart.com/art/X1-for-tipper-1-0-184525305
 * TabSRMM: http://kdrt.deviantart.com/art/X1-for-tabsrmm-1-0-186588145
 * PopUp+: http://name1ess0ne.deviantart.com/art/X1-skin-for-popup-101751409
+* ModernContactList: http://yukihatsu.deviantart.com/art/Pure-Adium-for-Miranda-IM-86047623
