@@ -4,11 +4,7 @@ IEView-X1 is a theme based on the BlackShadow IEView theme and colored to match 
 
 ![Theme preview with X1 for TabSRMM](https://github.com/Xuerian/IEView-x1/raw/master/theme_preview.png)
 
-To install, unpack the IEView-x1 folder so that x1-x.ivt resides in your Miranda folder:
-
-`Miranda-IM\Plugins\ieview\IEView-x1\x1-x.ivt`
-
-Uses LcdD and Calibri fonts. hooge 05_53 is available freely on the internet, and Calibri is included with most recent versions of Microsoft Windows.
+Uses **hooge 05_53** and **Calibri** fonts. **hooge 05_53** is available freely on the internet, and **Calibri** is included with most recent versions of Microsoft Windows.
 
 Similar/X1 skins are available for other plugins
 
