@@ -1,3 +1,4 @@
+/* Scrollbar */
 * {
 	-ms-scrollbar-3dlight-color: #222222; 
 	-ms-scrollbar-arrow-color: #555; 
@@ -8,12 +9,13 @@
 	-ms-scrollbar-shadow-color: #000;
 }
 
+/* Elements */
 body {
 	margin: 0;
 	font-family: Calibri;
 	font-size: .9em;
 	background-color: #1f1f1f;
-	color: #ccc;
+	color: #bbb;
 }
 
 hr {
@@ -23,77 +25,79 @@ hr {
 body > div {
 	clear: both;
 	margin-right: 8px;
-	max-width: 94%;
-	word-wrap: break-word;
+	/*max-width: 94%;*/
+	word-wrap: break-word; /* Wraps links */
 }
 
+/* Generic styles */
 .float-right {
 	float: right;
 }
 
 .old {
-	color: #676767;
+	color: #777;
 }
 
-.new {
-	color: #ccc;
-}
-
+/* Containers */
 .in, .out {
-	background-color: #1a1a1a;
 	border: 2px solid #050505;
-	padding: 5px;
+	padding: 3px 6px;
 	margin: 8px;
-	width: auto;
-	box-shadow: 2px 2px 5px #141414;
 	border-radius: 2px;
+	width: auto;
+	position: relative;
+	/*box-shadow: 2px 2px 5px #141414;*/
+	/*filter:progid:DXImageTransform.Microsoft.Glow(Color=#141414,Strength=5);*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#181818')";
+}
+
+.out {
+	background-color: #1a1a1a;
+	/* Adjust margins for alternating alignments */
+	/*margin-left: 25px;*/
+	/*margin-right: 15px;*/
+	color: #777;
 }
 
 .in {
-	margin-left: 5%;
-	background-color: #222;
+	background-color: #252525;
 }
 
-.head {
-	float: right;
-	margin-left: 10px;
-}
-
-.spacer {
-	margin-left: 4px;
-	margin-right: 4px;
+.status {
+	margin-left: 10%;
 	color: #444;
 }
 
-.date {
-	font-style: italic;
-	font-size: .8em;
-}
+/* Details */
 
-.time, .date-time {
-	font-family: lcdD;
-	font-size: 12px;
-}
-
-.time {
+.time, .head {
 	float: right;
 	margin-left: 10px;
+}
+
+.old .out, .out .old, .out.old {
+	color: #555;
+}
+
+.spacer {
+	margin-right: 8px;
+}
+
+.time, .date, .date-time, .status {
+	font-family: "hooge 05_53";
+	font-size: 8px;
 }
 
 .name {
 	font-weight: bold;
 }
 
-.message {
-	clear: both;
+.head .name {
+	position: relative;
+	top: 1px;
 }
 
-.status {
-	font-family: drifter;
-	margin-left: 10%;
-	font-size: 6px;
-	color: #333;
-}
+/* Links */
 
 a:link {
 	text-decoration: none;
@@ -103,4 +107,13 @@ a:link {
 a:hover {
 	color: #222;
 	background-color: #aac;
+}
+
+.old a:link {
+	color: #558;
+}
+
+.old a:hover {
+	color: #222;
+	background-color: #558;
 }

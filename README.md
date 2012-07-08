@@ -8,7 +8,7 @@ To install, unpack the IEView-x1 folder so that x1-x.ivt resides in your Miranda
 
 `Miranda-IM\Plugins\ieview\IEView-x1\x1-x.ivt`
 
-Uses LcdD and Calibri fonts. LcdD is available freely on the internet, and Calibri is included with most recent versions of Microsoft Windows.
+Uses LcdD and Calibri fonts. hooge 05_53 is available freely on the internet, and Calibri is included with most recent versions of Microsoft Windows.
 
 Similar/X1 skins are available for other plugins
 

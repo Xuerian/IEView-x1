@@ -4,25 +4,36 @@
 
 <head>
 	<base href="%base%" />
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=8" />
 	<link rel="stylesheet" href="x1-x.css" type="text/css" />
 </head>
 
 <body>
 
+<!--MessageIn-->
+DERPDERP
+
+<!--hMessageIn-->
+DERPDERP
+
+<!--MessageOut-->
+DERPDERP
+
+<!--hMessageOut-->
+DERPDERP
+
 <!--hMessageInGroupStart-->
 	<div class="in old">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 
 
 <!--hMessageInGroupInner-->
-		<div class="message secondary">
+		<div class="message inner">
 			<span class='time'>%time%</span>
 			%text%
 		</div>
@@ -33,15 +44,15 @@
 <!--hMessageOutGroupStart-->
 	<div class="out old">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 
 
 <!--hMessageOutGroupInner-->
-		<div class="message secondary">
+		<div class="message inner">
 			<span class='time'>%time%</span>
 			%text%
 		</div>
@@ -52,15 +63,15 @@
 <!--MessageInGroupStart-->
 	<div class="in">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 
 
 <!--MessageInGroupInner-->
-		<div class="message new">
+		<div class="message inner">
 			<span class='time'>%time%</span>
 			%text%
 		</div>
@@ -71,15 +82,15 @@
 <!--MessageOutGroupStart-->
 	<div class="out">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 
 
 <!--MessageOutGroupInner-->
-		<div class="message new">
+		<div class="message inner">
 			<span class='time'>%time%</span>
 			%text%
 		</div>
@@ -90,9 +101,9 @@
 <!--File-->
 	<div class="in">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 	</div>
@@ -100,9 +111,9 @@
 <!--hFile-->
 	<div class="in old">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 	</div>
@@ -110,9 +121,9 @@
 <!--URL-->
 	<div class="in">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 	</div>
@@ -120,9 +131,9 @@
 <!--hURL-->
 	<div class="in old">
 		<div class="head">
-			<span class='name'>%name%</span> <span class='spacer'>::</span> <span class='date'>%date%</span> <span class='date-time'>%time%</span>
+			<span class='name'>%name%</span><span class='spacer'></span><span class='date'>%date%</span> <span class='date-time'>%time%</span>
 		</div>
-		<div class="msg_body">
+		<div class="message">
 			%text%
 		</div>
 	</div>
